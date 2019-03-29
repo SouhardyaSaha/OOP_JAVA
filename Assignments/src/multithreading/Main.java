@@ -5,8 +5,8 @@ package multithreading;
  * lastly, 2 summed up arrays are summed up
  * Used Interface(Implements Runnable)
  * 
- * @author Pulock Das Kamol
- * Reg No:2017831046
+ * @author Souhardya Saha Dip
+ * Reg No:2017831024
  * 
  */
 
