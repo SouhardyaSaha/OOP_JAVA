@@ -2,7 +2,7 @@ package exceptionHandling;
 
 public class Throws {
 	
-	public static void main(String[] args) throws ArithmeticException {
+	public static void main(String[] args) throws Exception {
 		
 		int x = 20;
 		int y = 0;
