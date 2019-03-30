@@ -2,14 +2,24 @@ package exceptionHandling;
 
 public class Throws {
 	
-	public static void main(String[] args) throws Exception {
+	static int x =20, y =0;
+	
+	static void test() throws ArithmeticException 
+    { 
+        System.out.println("Inside method " + x/y); 
+        throw new ArithmeticException("divided by zero"); 
+    } 
+	
+	public static void main(String[] args) {
 		
-		int x = 20;
-		int y = 0;
-		
-		System.out.println(x/y);
-		
-		System.out.println("Program didn't crash");
+		try
+        { 
+            test(); 
+        } 
+        catch(ArithmeticException e) 
+        { 
+            System.out.println("caught in main."); 
+        } 
 		
 	}
 
